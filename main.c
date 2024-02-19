@@ -4,6 +4,6 @@
 
 void main(){
     while(1){
-        _delay_ms(100);
+        _delay_ms(200);
             }
 }
