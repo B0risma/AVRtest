@@ -1,0 +1,3 @@
+/home/borisma/PROJECTS/testAvr/CMakeFiles/testAVR.dir
+/home/borisma/PROJECTS/testAvr/CMakeFiles/edit_cache.dir
+/home/borisma/PROJECTS/testAvr/CMakeFiles/rebuild_cache.dir
