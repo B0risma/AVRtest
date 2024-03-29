@@ -4,19 +4,20 @@
 #include <avr/iom168pa.h>
 #include <avr/interrupt.h>
 
+#include "uart.h"
 
-ISR(INT1_vect){
-    _delay_ms(10);
-}
+//do echo with parsing json
 
-ISR(TIMER0_OVF_vect){
-    TCNT0 = 0;
-}
 
-void main(){
+int main(){
+    usartInit(9600);
     DDRB = 1 << DDB5;
     while(1){
         PORTB ^= 1 << PORT5;
         _delay_ms(200);
+        putChar('t');
+        putChar('e');
+        putChar('s');
+        putChar('t');
         }
 }

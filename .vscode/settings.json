@@ -3,7 +3,9 @@
         "io.h": "c",
         "delay.h": "c",
         "stdint.h": "c",
-        "iom168p.h": "c"
+        "iom168p.h": "c",
+        "cstdint": "cpp",
+        "compare": "cpp"
     },
     "C_Cpp.default.compilerPath": "/usr/bin/clang-16"
 }
