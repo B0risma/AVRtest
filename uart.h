@@ -1,5 +1,5 @@
 #ifndef UART_H
-#define UART_H
+#define UART_H 1
 #include <stdint.h>
 
 constexpr uint16_t calcBaud(const uint32_t targetBaud){

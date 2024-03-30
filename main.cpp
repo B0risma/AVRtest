@@ -1,13 +1,11 @@
 #include <avr/io.h>
-#include <stdint.h>
+#include <inttypes.h>
 #include <util/delay.h>
-#include <avr/iom168pa.h>
 #include <avr/interrupt.h>
 
 #include "uart.h"
 
 //do echo with parsing json
-
 
 int main(){
     usartInit(9600);
