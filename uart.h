@@ -1,6 +1,6 @@
 #ifndef UART_H
 #define UART_H 1
-#include <stdint.h>
+#include <inttypes.h>
 
 constexpr uint16_t calcBaud(const uint32_t targetBaud){
     return F_CPU/(16*targetBaud) - 1;
